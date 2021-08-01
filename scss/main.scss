@@ -112,6 +112,8 @@ main {
     background-color: white;
     border-radius: 1.4rem;
     padding: 4rem;
+    box-shadow: 0 0.8rem rgba($color: $Dark-Blue, $alpha: 0.2);
+
     .form {
       display: flex;
       flex-direction: column;

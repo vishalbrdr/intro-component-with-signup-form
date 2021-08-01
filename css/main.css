@@ -129,6 +129,7 @@ main {
   background-color: white;
   border-radius: 1.4rem;
   padding: 4rem;
+  box-shadow: 0 0.8rem rgba(62, 60, 73, 0.2);
 }
 
 .main .bg-white .form {
