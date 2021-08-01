@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="main">
+          <div class="main-header">
+            <span>Try it free 7 days</span> then $20/mo. thereafter
+          </div>
+          <div class="bg-white">
+            <form class="form">
+              <div class="input-group">
+                <input
+                  type="text"
+                  autocomplete="off"
+                  name="fname"
+                  placeholder="First Name"
+                />
+                <span class="err-txt">First Name cannot be empty</span>
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="text"
+                  autocomplete="off"
+                  name="lname"
+                  placeholder="Last Name"
+                />
+                <span class="err-txt">Last Name cannot be empty</span>
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="text"
+                  id="email"
+                  autocomplete="off"
+                  name="email"
+                  placeholder="Email Address"
+                />
+                <span class="err-txt">Email Address cannot be empty</span>
+                <span class="err-email-txt"
+                  >Looks like this is not an email</span
+                >
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="password"
+                  autocomplete="off"
+                  name="password"
+                  placeholder="Password"
+                />
+                <span class="err-txt">Password cannot be empty</span>
+              </div>
+              <button type="submit">Claim your free trial</button>
+            </form>
+            <p>
+              By clicking the button, you are agreeing to our
+              <a href="javascript:">Terms and Services</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://instagram.com/vishal_brdr">Vishal Biradar</a>.
+      </p>
+    </main>
+    <footer></footer>
+  </body>
+</html>
